@@ -1,0 +1,21 @@
+*    {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+.container {
+         display: flex;
+         height: 600px;
+         background-color: whitesmoke;
+       }
+.sidebar    {
+            flex: 30%;
+            background-color: rgb(67, 165, 67);
+            margin-left: 100px;
+            padding: 20px;
+        }
+.article {
+           padding-left: 100px;
+           margin-right: 150px;
+           background-color:white;
+        }
