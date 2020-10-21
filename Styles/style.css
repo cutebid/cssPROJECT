@@ -16,7 +16,7 @@
 .sidebar    {
               flex: 30%;
               background-color: rgb(67, 165, 67);
-              margin-left: 100px;
+              height: 800px;
             } 
 .hamburger    {display: none;}
 .sect       {
@@ -83,6 +83,7 @@ h2    {
                 padding: 5px;
              }
 .sideicons  {padding-left: 40px;
+              text-align: center;
              }
 .sideicons  a {
                 padding: 5px;
@@ -128,9 +129,10 @@ h2    {
                   border: none;
                   outline: none;
                   border-radius: 5px;
-                  margin: 20px 80px;
+                  margin: 20px 100px;
+                  /* margin: 20px 80px; */
                   width: 120px;
-                 
+                 text-align: center;
 }
 #btn:hover, #btn2:hover  {background-color: black;
               opacity: 1;
@@ -141,8 +143,12 @@ h2    {
 .para2 { font-size: small;
          color: green;
          }  
+        
 
  @media screen and (max-width:600px) {
+
+ 
+  
           .container  {flex-direction: column;} 
         
            .hamburger   {display: inline;
@@ -155,11 +161,7 @@ h2    {
                          margin: 10px 10px ;
                         } 
         
-          .sidebar      { 
-                           margin-left: 0px;
-                          
-                         
-                           } 
+
             
             .aside-items { display: none;
                         }
@@ -193,5 +195,8 @@ h2    {
                 }
                 .header {
                          height: 350px;}
-                
+                        
+                         .nav-Hamburger {
+                          display: block;}
         }
+       
